@@ -1,0 +1,27 @@
+{
+	"display": {
+		"title": {
+			"text": "Cat"
+		},
+		"description": {
+			"text": "Canonize an item.",
+			"color": "green"
+		},
+		"icon": {
+			"item": "minecraft:music_disc_cat"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"playerkill": {
+			"trigger": "impossible"
+		}
+	},
+	"rewards": {
+		"function": "neonfable:health/boss/become"
+	},
+	"parent": "smplore:root"
+}
