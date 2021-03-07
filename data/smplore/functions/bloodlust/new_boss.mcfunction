@@ -5,4 +5,4 @@
 ### Execute: N/A
 # ----------------------------------------------------------------
 playsound entity.wither.spawn player @a ~ ~ ~ 1.0 0.5 0.5
-effect give @s absorption 30 4
+effect give @s absorption 30 4 true

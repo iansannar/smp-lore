@@ -9,4 +9,4 @@ effect give @a[tag=lives.dead] weakness 999999 0 true
 effect give @a[tag=lives.dead] resistance 999999 0 true
 effect give @a[tag=lives.dead] slow_falling 999999 0 true
 effect give @a[tag=lives.dead] jump_boost 999999 0 true
-schedule function smplore:lives/tick_dead 12s replace
+schedule function smplore:lives/dead_effects 12s replace

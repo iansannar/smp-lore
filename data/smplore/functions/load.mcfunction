@@ -23,8 +23,8 @@ scoreboard objectives add event.login minecraft.custom:leave_game "== 1 on playe
 # Players who lose all of their canon lives become ghosts and are limited in their ability to interact with the world.
 # ----------------------------------------------------------------
 scoreboard objectives add lives dummy "Current amount of canon lives"
+scoreboard objectives add lives.enable dummy "Whether to enable canon life mechanics."
 scoreboard objectives add lives.initial dummy "Inital amount of canon lives"
-scoreboard objectives add lives.display dummy "Whether to display canon lives above the hotbar."
 
 ## Canon Items Setup
 # Allows certain items to be marked as unique and extremely resistant to environmental hazards.
@@ -49,7 +49,6 @@ scoreboard players set $global bloodlust.enable 1
 # Canon Lives
 scoreboard players set $global lives.enable 1
 scoreboard players set $global lives.initial 3
-scoreboard players set $global lives.display 1
 
 ## Call Self-Scheduling Functions
 # ----------------------------------------------------------------

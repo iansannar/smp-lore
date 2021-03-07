@@ -19,9 +19,9 @@ execute at @s if entity @s[y=0, dy=-32] run data modify entity @s Motion[1] set 
 execute at @s if entity @s[y=0, dy=-32] run data modify entity @s NoGravity set value true
 
 execute at @s unless block ~ ~ ~ #minecraft:air run data modify entity @s NoGravity set value false
-execute at @s unless block ~ ~-0.15 ~ #neonfable:dangerous_to_items unless entity @s[y=1, dy=-32] run data modify entity @s NoGravity set value false
+execute at @s unless block ~ ~-0.15 ~ #smplore:dangerous_to_items unless entity @s[y=1, dy=-32] run data modify entity @s NoGravity set value false
 
 ## Particle effects
 # This can help locate an item that has gone invisible after touching fire, lava, etc.
 # ----------------------------------------------------------------
-execute if predicate neonfable:one_in_ten run particle minecraft:end_rod ~ ~0.6 ~ 0.125 0.25 0.125 0.025 1
+execute if predicate smplore:chance/one_in_ten run particle minecraft:end_rod ~ ~0.6 ~ 0.125 0.25 0.125 0.025 1

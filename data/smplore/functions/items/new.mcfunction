@@ -4,6 +4,7 @@
 ### Summary: Attempts to create a new canon item, if requirements are met.
 ### Execute: as
 # ----------------------------------------------------------------
+advancement grant @s only smplore:canon_item
 
 ## Make an entity version of the item in weapon.mainhand and add the Canon item tag
 # I have to do this because I can't directly edit player inventory NBT.

@@ -5,3 +5,5 @@
 ### Execute: as, at
 # ----------------------------------------------------------------
 scoreboard players reset @s event.login
+
+function smplore:lives/display

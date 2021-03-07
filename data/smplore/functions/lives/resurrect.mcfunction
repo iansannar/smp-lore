@@ -7,6 +7,7 @@
 tag @s remove lives.dead
 gamemode survival @s
 scoreboard players operation @s lives = $global lives.initial
+effect clear @s
 effect give @s absorption 60 4 true
 
 ## Theatrics
