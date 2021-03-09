@@ -1,10 +1,16 @@
 ### Filename: death.mcfunction
-### Resource: smplore:triggers/death
+### Resource: smplore:event/death
 ### Title: Player death event
 ### Summary: Runs for each player whenever they die.
 ### Execute: as, at
 # ----------------------------------------------------------------
-scoreboard players set @s event.death 0
+scoreboard players reset @s event.death
+scoreboard players set @s event.respawn 1
+
+## Debug
+# Comment out if not testing
+# ----------------------------------------------------------------
+tellraw @s ["",{"text":"⏺ [smplore:event]","color":"aqua"},{"text":": ","color":"gray"},{"text":"Death event triggered.","italic":true,"color":"gray"}]
 
 ## Bloodlust
 # Reset bloodlust kill counter.

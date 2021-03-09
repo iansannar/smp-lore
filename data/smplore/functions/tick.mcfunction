@@ -7,8 +7,9 @@
 
 ## Triggers
 # ----------------------------------------------------------------
-execute as @a[scores={event.death=1..}] at @s run function smplore:triggers/death
-execute as @a[scores={event.login=1..}] at @s run function smplore:triggers/login
+execute as @a[scores={event.death=1}] at @s run function smplore:event/death
+execute as @a[scores={event.login=1}] at @s run function smplore:event/login
+execute as @e[type=player,scores={event.respawn=1}] at @s run function smplore:event/respawn
 
 ## Canon Lives
 # ----------------------------------------------------------------

@@ -1,0 +1,5 @@
+tellraw @s ["",{"text":"⏺ [smplore:event]","color":"aqua"},{"text":": ","color":"gray"},{"text":"MESSAGE_PLACEHOLDER","italic":true,"color":"gray"}]
+tellraw @s ["",{"text":"☑ [smplore:success]","color":"green"},{"text":": ","color":"gray"},{"text":"MESSAGE_PLACEHOLDER","italic":true,"color":"gray"}]
+tellraw @s ["",{"text":"⚠ [smplore:warning]","color":"yellow"},{"text":": ","color":"gray"},{"text":"MESSAGE_PLACEHOLDER","italic":true,"color":"gray"}]
+tellraw @s ["",{"text":"❌ [smplore:error]","color":"red"},{"text":": ","color":"gray"},{"text":"MESSAGE_PLACEHOLDER","italic":true,"color":"gray"}]
+tellraw @s ["",{"text":"⚠ [MESSAGE_SOURCE_PLACEHOLDER]","color":"gold"},{"text":": ","color":"gray"},{"text":"MESSAGE_PLACEHOLDER","italic":true,"color":"gray"}]
