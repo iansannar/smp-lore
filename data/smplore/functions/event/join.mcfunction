@@ -4,7 +4,7 @@
 ### Summary: Runs for each player whenever they log in.
 ### Execute: as, at
 # ----------------------------------------------------------------
-scoreboard players reset @s event.login
+scoreboard players reset @s event.join
 
 ## Debug
 # Comment out if not testing

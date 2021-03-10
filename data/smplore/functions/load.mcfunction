@@ -16,7 +16,7 @@ scoreboard objectives add z dummy
 
 # Trigger variables (to detect certain events)
 scoreboard objectives add event.death deathCount "Death event trigger"
-scoreboard objectives add event.login minecraft.custom:leave_game "Login event trigger"
+scoreboard objectives add event.join minecraft.custom:leave_game "Login event trigger"
 scoreboard objectives add event.respawn dummy "Respawn event trigger"
 
 ## Canon Lives Setup

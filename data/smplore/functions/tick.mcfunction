@@ -7,9 +7,9 @@
 
 ## Triggers
 # ----------------------------------------------------------------
-execute as @a[scores={event.death=1}] at @s run function smplore:event/death
-execute as @a[scores={event.login=1}] at @s run function smplore:event/login
-execute as @e[type=player,scores={event.respawn=1}] at @s run function smplore:event/respawn
+execute as @a[scores={event.death=1}] at @s run function #minecraft:event/death
+execute as @a[scores={event.join=1}] at @s run function #minecraft:event/join
+execute as @e[type=player,scores={event.respawn=1}] at @s run function #minecraft:event/respawn
 
 ## Canon Lives
 # ----------------------------------------------------------------
