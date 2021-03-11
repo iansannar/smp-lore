@@ -24,4 +24,4 @@ execute if score $temporary w matches 2.. run function smplore:bloodlust/attribu
 execute if score $temporary w matches 1.. run function smplore:bloodlust/attributes/1
 scoreboard players reset $temporary w
 
-effect give @s regeneration 3 1 true
+effect give @s regeneration 5 0 true

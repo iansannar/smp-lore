@@ -36,7 +36,7 @@ scoreboard objectives add lives.initial dummy "Inital amount of canon lives"
 # The player with the most kills (minimum of 10) has their health displayed in a boss bar.
 # A player's bloodlust resets when they die.
 # ----------------------------------------------------------------
-scoreboard objectives add bloodlust totalKillCount "Players killed since last death"
+scoreboard objectives add bloodlust playerKillCount "Players killed since last death"
 scoreboard objectives add bloodlust.enable dummy "Whether to enable bloodlust mechanics"
 scoreboard objectives add bossbar.decay dummy "Ticks until depleted boss bar vanishes"
 bossbar add smplore:bloodlust {"text":"Eleven"}
