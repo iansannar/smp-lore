@@ -13,6 +13,7 @@ scoreboard objectives add w dummy
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy
 scoreboard objectives add z dummy
+scoreboard objectives add t dummy
 
 # Trigger variables (to detect certain events)
 scoreboard objectives add event.death deathCount "Death event trigger"

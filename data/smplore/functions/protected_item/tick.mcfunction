@@ -1,5 +1,5 @@
 ### Filename: tick.mcfunction
-### Resource: smplore:items/tick
+### Resource: smplore:protected_item/tick
 ### Title: Canon Item Entity Tick
 ### Summary: Special behavior for dropped canon item entities.
 ### Execute: as, at

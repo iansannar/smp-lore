@@ -1,4 +1,14 @@
-execute if score $global lives.enable matches 1.. at @s run loot spawn ~ ~ ~ loot smplore:utility/canon_lives
-execute if score $global lives.enable matches 1.. at @s run title @s title {"nbt":"Item.tag.display.Name","entity":"@e[type=item,nbt={Age:0s, Item:{tag:{CanonLivesDisplayHack:true}}}, distance=..1, sort=nearest, limit=1]","interpret":true}
-execute if score $global lives.enable matches 1.. if score @s lives matches ..0 run title @s subtitle {"text":"☠","color":"dark_gray"}
-execute if score $global lives.enable matches 1.. at @s run kill @e[type=item,nbt={Age: 0s, Item:{tag:{CanonLivesDisplayHack: true}}}, sort=nearest, limit=1]
+### Filename: display.mcfunction
+### Resource: smplore:lives/display
+### Title: 
+### Summary: 
+### Execute: as
+# ----------------------------------------------------------------
+# Display three hearts: red are remaining lives, grey are lost lives.
+execute if score $global lives.enable matches 1.. if score @s lives matches 3 run title @s title {"text":"❤ ❤ ❤","color":"red","italic":false}
+execute if score $global lives.enable matches 1.. if score @s lives matches 2 run title @s title ["",{"text":"❤ ❤","color":"red","italic":false},{"text":" ❤","color":"dark_gray","italic":false}]
+execute if score $global lives.enable matches 1.. if score @s lives matches 1 run title @s title ["",{"text":"❤","color":"red","italic":false},{"text":" ❤ ❤","color":"dark_gray","italic":false}]
+execute if score $global lives.enable matches 1.. if score @s lives matches ..0 run title @s title {"text":"❤ ❤ ❤","color":"dark_gray","italic":false}
+
+# Display a skull if the player is canonically dead.
+title @s[tag=smplore.lives.dead] subtitle {"text":"☠","color":"dark_gray","italic":false}

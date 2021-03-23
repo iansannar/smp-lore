@@ -4,7 +4,7 @@
 ### Summary: Applies increased maximum health depending on bloodlust.
 ### Execute: as
 # ----------------------------------------------------------------
-advancement revoke @s only smplore:events/player_kills_player
+advancement revoke @s only smplore:event/player_kills_player
 
 ## Binary Hackery
 # I really wish it was possible to just use a scoreboard value in /attribute.

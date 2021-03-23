@@ -4,7 +4,7 @@
 ### Summary: Turns a ghost back into a player.
 ### Execute: as
 # ----------------------------------------------------------------
-tag @s remove lives.dead
+tag @s remove smplore.lives.dead
 gamemode survival @s
 scoreboard players operation @s lives = $global lives.initial
 effect clear @s
