@@ -17,7 +17,7 @@ tellraw @s ["",{"text":"⏺ [smplore:event]","color":"aqua"},{"text":": ","color
 # If this player was the current bloodlust boss, present some theatrics.
 # ----------------------------------------------------------------
 execute as @s[tag=smplore.bloodlust.boss] run playsound entity.wither.death player @a ~ ~ ~ 1.0 0.5 0.5
-execute as @s[tag=smplore.bloodlust.boss] run setblock ~ ~ ~ minecraft:crimson_roots
+execute as @s[tag=smplore.bloodlust.boss] run setblock ~ ~ ~ minecraft:wither_rose
 execute if score $global lives.enable matches 1.. run scoreboard players remove @s[tag=smplore.bloodlust.boss] lives 1
 function smplore:bloodlust/reset
 

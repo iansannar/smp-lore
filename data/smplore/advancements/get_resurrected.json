@@ -1,0 +1,1 @@
+{"display":{"title":{"text":"Ward"},"description":{"text":"A second chance?","color":"purple"},"icon":{"item":"minecraft:music_disc_ward"},"frame":"challenge","show_toast":true,"announce_to_chat":true,"hidden":true},"criteria":{"impossible":{"trigger":"impossible"}},"parent":"smplore:last_canon_death"}

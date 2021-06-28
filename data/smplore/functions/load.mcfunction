@@ -28,9 +28,11 @@ scoreboard objectives add lives dummy "Current amount of canon lives"
 scoreboard objectives add lives.enable dummy "Enable canon life mechanics"
 scoreboard objectives add lives.initial dummy "Inital amount of canon lives"
 
-## Canon Items Setup
+## Protected Items Setup
 # Allows certain items to be marked as unique and extremely resistant to environmental hazards.
 # ----------------------------------------------------------------
+scoreboard objectives add protected_item trigger "Attempt to bless an item"
+scoreboard players enable @a protected_item
 
 ## Bloodlust Setup
 # Bloodlust increases a player's maximum health by 2 (1 heart) each time they kill another player.

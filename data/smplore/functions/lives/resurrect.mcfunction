@@ -6,6 +6,7 @@
 # ----------------------------------------------------------------
 tag @s remove smplore.lives.dead
 gamemode survival @s
+advancement grant @s only smplore:get_resurrected
 scoreboard players operation @s lives = $global lives.initial
 effect clear @s
 effect give @s absorption 60 4 true

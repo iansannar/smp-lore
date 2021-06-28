@@ -1,0 +1,1 @@
+{"display":{"title":{"text":"Stal"},"description":{"text":"Cheat death.","color":"purple"},"icon":{"item":"minecraft:music_disc_stal"},"frame":"challenge","show_toast":true,"announce_to_chat":true,"hidden":true},"criteria":{"impossible":{"trigger":"impossible"}},"parent":"smplore:first_canon_death"}

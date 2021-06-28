@@ -14,10 +14,11 @@ execute as @e[type=player,scores={event.respawn=1}] at @s run function #minecraf
 ## Canon Lives
 # Display particles around canonically dead players
 # ----------------------------------------------------------------
-execute if predicate smplore:chance/one_in_five as @a[tag=smplore.lives.dead] at @s run particle minecraft:poof ~ ~0.5 ~ 0.5 0.5 0.5 0 1
+execute if predicate smplore:chance/one_in_ten as @a[tag=smplore.lives.dead] at @s run particle minecraft:poof ~ ~0.5 ~ 0.5 0.5 0.5 0 1
 
-## Canon Items
+## Protected/Canon Items
 # ----------------------------------------------------------------
+execute as @a[scores={protected_item=1}] at @s run function smplore:protected_item/try
 execute as @e[type=item, nbt={Item:{tag:{Tags:["smplore.protected_item"]}}}] at @s run function smplore:protected_item/tick
 
 ## Bloodlust

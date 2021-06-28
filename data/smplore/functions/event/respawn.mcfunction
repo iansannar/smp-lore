@@ -1,7 +1,7 @@
-### Filename: death.mcfunction
-### Resource: smplore:event/death
-### Title: Player death event
-### Summary: Runs for each player whenever they die.
+### Filename: respawn.mcfunction
+### Resource: smplore:event/respawn
+### Title: Player respawn event
+### Summary: Runs for each player whenever they respawn.
 ### Execute: as, at
 # ----------------------------------------------------------------
 scoreboard players reset @s event.respawn

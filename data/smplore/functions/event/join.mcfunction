@@ -1,5 +1,5 @@
-### Filename: login.mcfunction
-### Resource: smplore:event/login
+### Filename: join.mcfunction
+### Resource: smplore:event/join
 ### Title: Player login event
 ### Summary: Runs for each player whenever they log in.
 ### Execute: as, at

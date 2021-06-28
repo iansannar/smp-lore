@@ -21,4 +21,4 @@ scoreboard players reset @s bloodlust
 ## General
 # Run login function since it doesn't detect initial logins
 # ----------------------------------------------------------------
-function smplore:event/login
+function smplore:event/join
