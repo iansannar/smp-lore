@@ -19,6 +19,6 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{Tags:[\"smplore.protected_item\"]}"
+    "tag": "{Tags:[\"smplore.protected_item\",\"smplore.protected_item.destructible\"]}"
   }
 ]

@@ -9,10 +9,10 @@ tellraw @a ["",{"text":"⏺ [smplore:event]","color":"aqua"},{"text":": ","color
 ## General Setup
 # ----------------------------------------------------------------
 # Temporary variables (use with the fake $temporary player)
-scoreboard objectives add w dummy
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy
 scoreboard objectives add z dummy
+scoreboard objectives add w dummy
 scoreboard objectives add t dummy
 
 # Trigger variables (to detect certain events)
@@ -27,6 +27,7 @@ scoreboard objectives add event.respawn dummy "Respawn event trigger"
 scoreboard objectives add lives dummy "Current amount of canon lives"
 scoreboard objectives add lives.enable dummy "Enable canon life mechanics"
 scoreboard objectives add lives.initial dummy "Inital amount of canon lives"
+scoreboard objectives add lives.doomed dummy "Your next death is canon"
 
 ## Protected Items Setup
 # Allows certain items to be marked as unique and extremely resistant to environmental hazards.

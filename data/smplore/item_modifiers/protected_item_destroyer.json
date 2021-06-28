@@ -1,0 +1,33 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Sorrow",
+			"color": "red",
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[
+				{
+					"selector": "@s",
+					"color": "gray",
+					"italic": true
+				},
+				{
+					"text": " has chosen destruction.",
+					"color": "red"
+				}
+			]
+		],
+		"replace": true
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Tags:[\"smplore.protected_item\",\"smplore.protected_item.protected_item_destroyer\",\"smplore.protected_item.custom_particle\",\"smplore.protected_item.custom_particle.soul_fire_flame\"]}"
+	}
+]

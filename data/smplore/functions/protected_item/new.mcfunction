@@ -10,7 +10,4 @@ xp add @s -50 levels
 ## Apply custom lore and tag to the item
 # ---------------------------------------------------------------- 
 item modify entity @s weapon.mainhand smplore:protected_item
-
-## Display announcement of item protection
-# ----------------------------------------------------------------
-tellraw @a ["",{"text":"☑ [blessed item creation]","color":"green"},{"text":": ","color":"gray"},{"selector":"@s"},{"text":" has blessed an item: ","italic":true,"color":"gray"},{"nbt":"SelectedItem.tag.display.Name","entity":"@s","interpret":true}]
+item modify entity @s[nbt={SelectedItem:{id:"minecraft:ghast_tear"}}] weapon.mainhand smplore:protected_item_destroyer
